@@ -13,7 +13,7 @@ const GifGrid = ({ category }) => {
             <>  
                 <h3>{ category }</h3>
 
-                { loading && <p>Loading</p> }
+                { loading && <p className ="loading">Loading...</p> }
 
             <div className= "card-grid">
                     {
